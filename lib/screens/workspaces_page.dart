@@ -42,6 +42,7 @@ class _WorkspacesPageState extends State<WorkspacesPage> {
         children: [
           AppBar(
             backgroundColor: kBackgroundColor,
+            surfaceTintColor: kBackgroundColor,
             elevation: 0,
             leading: Padding(
               padding: const EdgeInsets.all(8.0),
